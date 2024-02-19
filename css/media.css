@@ -1,0 +1,359 @@
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+/*-------- Common CSS Starts -------*/
+
+.container-fluid { padding: 20px 15px; }
+.section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
+.section-heading > div > img { display: block; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+p { font-size: 1.6rem; }
+
+/*-------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { display: none; }
+
+  /*------- Desktop Header Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; }
+.box-banner > h1 { font-size: 3rem; }
+.btn-read-more-view-products { display: block; }
+.btn-read-more-view-products > li { margin-right: 0; }
+.btn-read-more-view-products > li > a { display: block; }
+.btn-read-more-view-products > li:last-child > a { margin-top: 15px; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.bg-about { padding: 75px 15px 20px; }
+.ohm-image-about { bottom: 20px; right: 20px; }
+.ohm-image-about > img { width: 70px; }
+.about-image-top { left: 0; top: -50px; }
+.about-image-top > img,
+.about-image-bottom > img { height: 100px; width: 100px; }
+.about-image-center > img { width: 85%; }
+.about-image-bottom { bottom: -50px; right: 0; }
+.about-info { margin: 70px 0 0; }
+.about-desc > p { text-align: justify; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Products Section Starts -------*/
+
+.box-products { margin-bottom: 20px; }
+.box-products:hover { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.btn-read-view-more-products { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+  /*------- Extra Details Section Starts -------*/
+
+.bg-extra-details { padding: 20px 15px 0; }
+.box-extra-details { margin-bottom: 20px; }
+
+  /*------- Extra Details Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-about-desc > p { margin-bottom: 20px; padding-right: 0; text-align: justify; }
+.footer-heading > h3 { font-size: 2rem; margin-bottom: 15px; }
+.quick-links-listing > li,
+.footer-contact-listing > li { margin-bottom: 10px; }
+.quick-links-listing > li:last-child,
+.footer-contact-listing > li:last-child { margin-bottom: 20px; }
+
+  /*------- Footer Section Ends -------*/
+
+  /*------- Copyright Section Starts -------*/
+
+.copyright-info > p,
+.design-develop-by > p { text-align: center; }
+.copyright-info > p { margin-bottom: 10px; }
+
+  /*------- Copyright Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+
+/*------- About Us Page Ends -------*/
+
+/*------- Products Page Starts -------*/
+
+
+/*------- Products Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+/*-------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+.section-heading > div { font-size: 1.6rem; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+p { font-size: 1.6rem; }
+
+/*-------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { display: none; }
+
+  /*------- Desktop Header Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; }
+.box-banner > h1 { font-size: 3.6rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.bg-about { padding: 130px 15px 30px; }
+.ohm-image-about { bottom: 30px; right: 30px; }
+.ohm-image-about > img { width: 70px; }
+.about-image-top { left: 0; top: -100px; }
+.about-image-center > img { width: 70%; }
+.about-image-bottom { bottom: -80px; right: 0; }
+.about-info { margin: 100px 0 0; }
+.about-desc > p { text-align: justify; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Products Section Starts -------*/
+
+.btn-read-view-more-products { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+  /*------- Extra Details Section Starts -------*/
+
+.bg-extra-details { padding: 30px 15px 0; }
+
+  /*------- Extra Details Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-about-desc > p { margin-bottom: 20px; padding-right: 0; text-align: justify; }
+.footer-heading > h3 { font-size: 2rem; margin-bottom: 15px; }
+.quick-links-listing > li,
+.footer-contact-listing > li { margin-bottom: 10px; }
+.quick-links-listing > li:last-child,
+.footer-contact-listing > li:last-child { margin-bottom: 20px; }
+
+  /*------- Footer Section Ends -------*/
+
+  /*------- Copyright Section Starts -------*/
+
+.copyright-info > p,
+.design-develop-by > p { text-align: center; }
+.copyright-info > p { margin-bottom: 10px; }
+
+  /*------- Copyright Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+
+/*------- About Us Page Ends -------*/
+
+/*------- Products Page Starts -------*/
+
+
+/*------- Products Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*-------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+.section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
+.section-heading > div > img { display: block; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+p { font-size: 1.6rem; }
+
+/*-------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { display: none; }
+
+  /*------- Desktop Header Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.box-banner > h1 { font-size: 3.6rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.bg-about { padding: 130px 15px 30px; }
+.ohm-image-about { bottom: 30px; right: 30px; }
+.ohm-image-about > img { width: 70px; }
+.about-image-top { left: 0; top: -100px; }
+.about-image-center > img { width: 70%; }
+.about-image-bottom { bottom: -80px; right: 0; }
+.about-info { margin: 100px 0 0; }
+.about-desc > p { text-align: justify; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Products Section Starts -------*/
+
+.btn-read-view-more-products { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+  /*------- Extra Details Section Starts -------*/
+
+.bg-extra-details { padding: 30px 15px 0; }
+
+  /*------- Extra Details Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-about-desc > p { margin-bottom: 20px; padding-right: 0; text-align: justify; }
+.footer-heading > h3 { font-size: 2rem; margin-bottom: 15px; }
+.quick-links-listing > li,
+.footer-contact-listing > li { margin-bottom: 10px; }
+
+  /*------- Footer Section Ends -------*/
+
+  /*------- Copyright Section Starts -------*/
+
+.copyright-info > p,
+.design-develop-by > p { text-align: center; }
+.copyright-info > p { margin-bottom: 10px; }
+
+  /*------- Copyright Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+
+/*------- About Us Page Ends -------*/
+
+/*------- Products Page Starts -------*/
+
+
+/*------- Products Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*-------- Common CSS Starts -------*/
+
+.container-fluid { padding: 40px 15px; }
+.section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
+.section-heading > h2 { font-size: 2.4rem; }
+p { font-size: 1.6rem; }
+
+/*-------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { display: none; }
+
+  /*------- Desktop Header Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.box-banner > h1 { font-size: 3.6rem; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.bg-about { padding: 140px 15px 120px; }
+.ohm-image-about { bottom: 50px; right: 50px; }
+.ohm-image-about > img { width: 100px; }
+.about-image-top { left: 0; top: -100px; }
+.about-image-top > img,
+.about-image-bottom > img { height: 150px; width: 150px; }
+.about-image-center > img { width: 80%; }
+.about-image-bottom { bottom: -80px; right: 0; }
+.about-desc > p { text-align: justify; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Products Section Starts -------*/
+
+.btn-read-view-more-products { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
+
+  /*------- Extra Details Section Starts -------*/
+
+.bg-extra-details { padding: 40px 15px 10px; }
+
+  /*------- Extra Details Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.footer-about-desc > p { margin-bottom: 30px; padding-right: 0; text-align: justify; }
+.footer-heading > h3 { font-size: 2rem; margin-bottom: 15px; }
+.quick-links-listing > li,
+.footer-contact-listing > li { margin-bottom: 10px; }
+
+  /*------- Footer Section Ends -------*/
+
+  /*------- Copyright Section Starts -------*/
+
+.bg-copyright { padding: 20px 15px; }
+
+  /*------- Copyright Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+
+/*------- About Us Page Ends -------*/
+
+/*------- Products Page Starts -------*/
+
+
+/*------- Products Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+
+/*------- Contact Us Page Ends -------*/
+
+}
