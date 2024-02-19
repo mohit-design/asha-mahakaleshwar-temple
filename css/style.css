@@ -258,12 +258,12 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .btn-update-cart:hover { background-color: #FFB800; color: #1E1E1E; }
 .btn-update-cart:focus,
 .btn-proceed-to-checkout:focus { outline: 0; }
-.box-view-cart-totals-vcp { border: 2px solid #002838; }
 .box-view-cart-totals-vcp > h4 { background-color: #002838; color: #FFFFFF; font: 2rem/normal "NunitoSans-SemiBold"; padding: 10px 15px; text-align: center; text-transform: uppercase; }
 .table-view-cart-totals-vcp { margin-bottom: 0; }
-.table-view-cart-totals-vcp > tbody > tr > td { border-bottom: 2px solid #002838; border-top: 0; color: #002838; font: 1.8rem/1.2 "NunitoSans-SemiBold"; padding: 15px; }
-.table-view-cart-totals-vcp > tbody > tr:last-child > td { border-bottom: 0; }
+.table-view-cart-totals-vcp > tbody > tr > td { border: 2px solid #002838; border-top: 0; color: #002838; font: 1.8rem/1.2 "NunitoSans-SemiBold"; padding: 10px 15px; }
 .table-view-cart-totals-vcp > tbody > tr > td:last-child { color: #002838; text-align: right; }
+.table-view-cart-totals-vcp > tbody > tr > td.total-label,
+.table-view-cart-totals-vcp > tbody > tr > td.total-value { background-color: #FFB800; color: #1E1E1E; font-family: "NunitoSans-Bold"; }
 .table-view-cart-totals-vcp > tbody > tr:last-child > td { padding: 15px; }
 .btn-proceed-to-checkout { background-color: #0382B7; border: 0; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; letter-spacing: 0.5px; padding: 16px 32px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
 .btn-proceed-to-checkout:hover { background-color: #FFB800; color: #1E1E1E; }
