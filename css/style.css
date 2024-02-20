@@ -57,7 +57,8 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 
   /*------- Desktop Header Section Starts -------*/
 
-.bg-header-desktop { padding: 15px; }
+.bg-header-desktop { background-color: #FFFFFF; left: 0; padding: 15px; position: fixed; top: 0; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; z-index: 2; }
+.bg-header-desktop.active { box-shadow: 0 5px 12px 1px rgba(35, 31, 32, 0.09); }
 .logo-header-desktop > a { display: inline-block; }
 .logo-header-desktop > a > img { width: 70px; }
 .menu-listing-desktop > li { margin-right: 50px; }
@@ -81,6 +82,7 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 
   /*------- Banner Section Starts -------*/
 
+.main-wrapper { margin-top: 100px; }
 .bg-banner { background: url("../images/banner.jpg") no-repeat center/cover; height: 100vh; position: relative; z-index: 1; }
 .box-banner { background-color: rgb(0 35 50 / 70%); -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; left: auto; padding: 30px; position: absolute; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); z-index: 1; }
 .box-banner > h1 { color: #FFFFFF; font: 4rem/normal "NunitoSans-ExtraBold"; margin-bottom: 10px; }
@@ -146,7 +148,7 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .box-extra-details-heading { background-color: #0382B7; }
 .box-extra-details-heading > h4 { color: #FFFFFF; font: 2rem/normal "NunitoSans-SemiBold"; padding: 10px 15px; text-align: center; }
 .box-extra-details-desc { padding: 20px; }
-.box-extra-details-desc > p { color: #1E1E1E; text-align: center; }
+.box-extra-details-desc > p { color: #1E1E1E; margin-bottom: 20px; text-align: center; }
 
   /*------- Extra Details Section Ends -------*/
 
@@ -190,6 +192,7 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .design-develop-by > p > a { color: #FFB800; font-family: "NunitoSans-Regular"; }
 .design-develop-by > p { text-align: right; }
 .design-develop-by > p > a:hover { color: #FFFFFF; }
+.design-develop-by > p > a > img { -webkit-filter: invert(1); filter: invert(1); width: 70px; }
 
   /*------- Copyright Section Ends -------*/
 
@@ -223,13 +226,13 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .box-product-detail-heading > h3 { color: #0382B7; font: 2.4rem/normal "NunitoSans-Bold"; margin-bottom: 10px; }
 .box-product-detail-desc > p { margin-bottom: 15px; }
 .box-product-detail-price > h4 { color: #0382B7; font: 2rem/normal "NunitoSans-SemiBold"; margin-bottom: 15px; }
-.quantity-pdp { -webkit-align-items: center; align-items: center; border: 2px solid #1E1E1E; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; margin-bottom: 30px; }
+.quantity-pdp { -webkit-align-items: center; align-items: center; border: 2px solid #002332; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; display: -webkit-inline-box; display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; margin-bottom: 30px; }
 .quantity-pdp > span { padding: 0 20px; }
 .quantity-pdp > input { color: #ffffff; font: 2rem/normal "NunitoSans-Regular"; padding: 0.85rem .75rem; text-align: center; width: 40px; }
-.quantity-pdp > input[readonly] { background-color: #1E1E1E; border: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
+.quantity-pdp > input[readonly] { background-color: #002332; border: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
 .quantity-pdp > input[readonly]:focus { box-shadow: none; color: #FFFFFF; }
 .quantity-pdp > span:last-child { margin-right: 0; }
-.quantity-inc-dec { color: #1E1E1E; cursor: pointer; display: inline-block; font: 1.6rem/normal "NunitoSans-Regular"; }
+.quantity-inc-dec { color: #002332; cursor: pointer; display: inline-block; font: 1.6rem/normal "NunitoSans-Regular"; }
 
   /*------- Product Details Section Ends -------*/
 
@@ -245,26 +248,36 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 
   /*------- View Cart Section Starts -------*/
 
-.box-table-view-cart-vcp { margin-bottom: 50px; }
+.box-table-view-cart-vcp { border: 2px solid #002332; margin-bottom: 50px; }
 .table-view-cart-vcp,
 .table-view-cart-totals-vcp { margin-bottom: 0; }
-.table-view-cart-vcp > thead > tr > th { background-color: #002332; border: 2px solid #002332; border-bottom: 0; color: #FFFFFF; font: 1.8rem/1.2 "NunitoSans-SemiBold"; padding: 10px 15px; text-transform: uppercase; }
-.table-view-cart-vcp > thead:first-child > tr:first-child > th { border-top: 2px solid #002332; }
-.table-view-cart-vcp > tbody > tr > td { border: 2px solid #002332; color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; padding: 10px 15px; vertical-align: middle; }
+.table-view-cart-vcp > thead > tr > th { background-color: #002332; border: 0; border-bottom: 0; color: #FFFFFF; font: 1.8rem/1.2 "NunitoSans-SemiBold"; padding: 10px 15px; text-transform: uppercase; }
+.table-view-cart-vcp > thead:first-child > tr:first-child > th { border-top: 1px solid #002332; }
+.table-view-cart-vcp > tbody > tr > td { border-bottom: 2px solid #002332; color: #002332; font: 1.8rem/normal "NunitoSans-SemiBold"; padding: 10px 15px; vertical-align: middle; }
+.table-striped.table-view-cart-vcp > tbody > tr:nth-of-type(odd) > * { color: #002332; }
+.table-view-cart-vcp > tbody > tr:last-child > td { border-bottom: 0; padding: 15px; }
 .view-cart-image-vcp > img { margin-right: 15px; width: 70px; }
-.view-cart-image-info-vcp > p { color: #1E1E1E; font-family: "NunitoSans-SemiBold"; }
+.view-cart-image-info-vcp > p { color: #002332; font-family: "NunitoSans-SemiBold"; }
 .quantity-pdp.quantity-vcp { margin-bottom: 0; }
+.delete-product { color: #002332; cursor: pointer; font-size: 2.4rem; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.delete-product:hover { color: #DC143C; }
 .btn-update-cart { background-color: #0382B7; border: 0; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; font: 1.6rem/normal "NunitoSans-Bold"; height: 54px; letter-spacing: 1px; padding: 10px 30px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
-.btn-update-cart:hover { background-color: #FFB800; color: #1E1E1E; }
+.btn-update-cart:hover,
+.btn-proceed-to-checkout:hover,
+.btn-place-order:hover,
+.btn-login-signup:hover { background-color: #FFB800; color: #1E1E1E; }
 .btn-update-cart:focus,
 .btn-proceed-to-checkout:focus,
-.btn-place-order:focus { outline: 0; }
+.btn-place-order:focus,
+.btn-login-signup:focus { outline: 0; }
+.box-view-cart-totals-vcp,
+.box-view-cart-totals-cop { border: 2px solid #002332; }
 .box-view-cart-totals-vcp > h4,
 .box-view-cart-totals-cop > h4 { background-color: #002332; color: #FFFFFF; font: 2rem/normal "NunitoSans-SemiBold"; padding: 10px 15px; text-align: center; text-transform: uppercase; }
 .table-view-cart-totals-vcp,
 .table-view-cart-totals-cop { margin-bottom: 0; }
 .table-view-cart-totals-vcp > tbody > tr > td,
-.table-view-cart-totals-cop > tbody > tr > td { border: 2px solid #002332; border-top: 0; color: #002332; font: 1.8rem/1.2 "NunitoSans-SemiBold"; padding: 10px 15px; }
+.table-view-cart-totals-cop > tbody > tr > td { border-bottom: 2px solid #002332; border-top: 0; color: #002332; font: 1.8rem/normal "NunitoSans-SemiBold"; padding: 10px 15px; }
 .table-view-cart-totals-vcp > tbody > tr > td:last-child,
 .table-view-cart-totals-cop > tbody > tr > td:last-child { color: #002332; text-align: right; }
 .table-view-cart-totals-vcp > tbody > tr > td.total-label,
@@ -272,11 +285,10 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .table-view-cart-totals-cop > tbody > tr > td.total-label,
 .table-view-cart-totals-cop > tbody > tr > td.total-value { background-color: #FFB800; color: #1E1E1E; font-family: "NunitoSans-Bold"; }
 .table-view-cart-totals-vcp > tbody > tr:last-child > td,
-.table-view-cart-totals-cop > tbody > tr:last-child > td { padding: 15px; }
+.table-view-cart-totals-cop > tbody > tr:last-child > td { border-bottom: 0; padding: 15px; }
 .btn-proceed-to-checkout,
-.btn-place-order { background-color: #0382B7; border: 0; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; letter-spacing: 0.5px; padding: 16px 32px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
-.btn-proceed-to-checkout:hover,
-.btn-place-order:hover { background-color: #FFB800; color: #1E1E1E; }
+.btn-place-order,
+.btn-login-signup { background-color: #0382B7; border: 0; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; letter-spacing: 0.5px; padding: 16px 32px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
 
   /*------- View Cart Section Ends -------*/
 
@@ -286,6 +298,7 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 
   /*------- Checkout Section Starts -------*/
 
+.bg-checkout-cop { padding: 70px 15px 40px; }
 .form-group-contact { margin-bottom: 30px; }
 .form-label-contact { color: #1E1E1E; font: 1.8rem/normal "NunitoSans-SemiBold"; margin-bottom: 10px; }
 .form-label-contact > span.required { color: #DC143C; }
@@ -300,17 +313,29 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 }
 .form-control-contact:focus { border-color: #0382B7; box-shadow: none; }
 textarea.form-control-contact { min-height: 140px; resize: none; }
-.box-checkout-products { border: 2px solid #002332; padding: 15px; }
+.box-checkout-products { border-bottom: 2px solid #002332; padding: 15px; }
 .box-checkout-products + .box-checkout-products { border-top: 0; }
 .box-checkout-products-image-name-qty { align-items: start; display: -webkit-box; display: -webkit-flex; display: flex; }
 .box-checkout-products-image-name-qty > img { margin-right: 10px; width: 100px; }
-.box-checkout-products-image-name-qty > div > h4 { color: #1E1E1E; font: 1.8rem/normal "NunitoSans-SemiBold"; }
+.box-checkout-products-image-name-qty > div > h4 { color: #002332; font: 1.8rem/normal "NunitoSans-Bold"; }
+.box-checkout-products-image-name-qty > div > p { color: #002332; font-family: "NunitoSans-SemiBold"; }
+.box-checkout-products-amt > p { color: #002332; font-family: "NunitoSans-SemiBold"; text-align: right; }
 
   /*------- Checkout Section Ends -------*/
 
-/*------- Contact Us Page Ends -------*/
+/*------- Checkout Page Ends -------*/
 
-/*------- Contact Us Page Starts -------*/
+/*------- LogIn and SignUp Page Starts -------*/
 
+.box-login-signup { background-color: #F7F7F7; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; padding: 30px; }
+.box-login-signup-heading > h3 { color: #002332; font: 2.4rem/normal "NunitoSans-Bold"; margin-bottom: 15px; text-align: center; }
+.box-login-signup-heading > p { margin-bottom: 30px; text-align: center; }
+.forget-password > a { color: #0382B7; font-family: "NunitoSans-SemiBold"; text-decoration: underline; }
+.forget-password > a:hover,
+.login-signup-redirection > a:hover { color: #002332; }
+.login-signup-redirection { color: #002332; font-family: "NunitoSans-SemiBold"; text-align: center; }
+.login-signup-redirection > a { color: #0382B7; text-decoration: underline; }
+.btn-cancel { background-color: #DC143C; border: 2px solid #DC143C; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; letter-spacing: 0.5px; margin-top: 15px; padding: 14px 32px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
+.btn-cancel:hover { background-color: transparent; color: #DC143C; }
 
-/*------- Contact Us Page Ends -------*/
+/*------- LogIn and SignUp Page Ends -------*/
