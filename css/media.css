@@ -73,7 +73,7 @@ p { font-size: 1.6rem; }
   /*------- Copyright Section Starts -------*/
 
 .copyright-info > p,
-.design-develop-by > p { text-align: center; }
+.design-develop-by > p { font-size: 1.4rem; text-align: center; }
 .copyright-info > p { margin-bottom: 10px; }
 
   /*------- Copyright Section Ends -------*/
