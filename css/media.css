@@ -18,6 +18,12 @@ p { font-size: 1.6rem; }
 
   /*------- Desktop Header Section Ends -------*/
 
+  /*------- Wrapper Section Starts -------*/
+
+.main-wrapper { margin-top: 0; }
+
+  /*------- Wrapper Section Ends -------*/
+
   /*------- Banner Section Starts -------*/
 
 .box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; }
@@ -116,6 +122,12 @@ p { font-size: 1.6rem; }
 
   /*------- Desktop Header Section Ends -------*/
 
+  /*------- Wrapper Section Starts -------*/
+
+.main-wrapper { margin-top: 0; }
+
+  /*------- Wrapper Section Ends -------*/
+
   /*------- Banner Section Starts -------*/
 
 .box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; }
@@ -206,6 +218,12 @@ p { font-size: 1.6rem; }
 
   /*------- Desktop Header Section Ends -------*/
 
+  /*------- Wrapper Section Starts -------*/
+
+.main-wrapper { margin-top: 0; }
+
+  /*------- Wrapper Section Ends -------*/
+
   /*------- Banner Section Starts -------*/
 
 .box-banner > h1 { font-size: 3.6rem; }
@@ -291,6 +309,12 @@ p { font-size: 1.6rem; }
 .bg-header-desktop { display: none; }
 
   /*------- Desktop Header Section Ends -------*/
+
+  /*------- Wrapper Section Starts -------*/
+
+.main-wrapper { margin-top: 0; }
+
+  /*------- Wrapper Section Ends -------*/
 
   /*------- Banner Section Starts -------*/
 
