@@ -26,7 +26,7 @@
     <div class="container-fluid bg-header-desktop">
       <div class="container">
         <div class="row d-flex align-items-center">
-          <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
             <div class="logo-header-desktop">
               <a href="index.html">
                 <img src="images/logo.png" class="img-fluid" alt="">
@@ -41,10 +41,67 @@
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
-          <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-            <ul class="btn-add-to-cart-donate-now d-flex align-items-center justify-content-end">
-              <li><a href=""><i class="fa-solid fa-cart-shopping"></i><span>0</span></a></li>
-              <li><a href=""><i class="fa-solid fa-hand-holding-heart"></i> Donate Now</a></li>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <ul class="btn-profile-add-to-cart-donate-now d-flex align-items-center justify-content-end">
+              <li class="profile-li">
+                <a href="javascript:void(0)"><i class="fa-solid fa-user"></i></a>
+                <ul class="profile-dropdown">
+                  <li><a href="signup.html">Sign Up</a></li>
+                  <li><a href="login.html">Log In</a></li>
+                  <li><a href="login.html">Logout</a></li>
+                </ul>
+              </li>
+              <li class="shopping-cart-li">
+                <a href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i><span>0</span></a>
+                <ul class="shopping-cart-listing-dropdown">
+                  <li>
+                    <div class="box-checkout-products">
+                      <div class="row align-items-center">
+                        <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+                          <div class="box-checkout-products-image-name-qty">
+                            <img src="images/product-1.jpg" class="img-fluid" alt="">
+                            <div>
+                              <h4>Name</h4>
+                              <p>Qty : 2</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                          <div class="box-checkout-products-amt">
+                            <p>₹180</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="box-checkout-products">
+                      <div class="row align-items-center">
+                        <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+                          <div class="box-checkout-products-image-name-qty">
+                            <img src="images/product-1.jpg" class="img-fluid" alt="">
+                            <div>
+                              <h4>Name</h4>
+                              <p>Qty : 2</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                          <div class="box-checkout-products-amt">
+                            <p>₹180</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <form action="checkout.html" method="">
+                      <input type="submit" class="btn-proceed-to-checkout-white" value="Proceed To Checkout" />
+                    </form>
+                  </li>
+                </ul>
+              </li>
+              <li class="donate-now-li"><a href=""><i class="fa-solid fa-hand-holding-heart"></i> Donate Now</a></li>
             </ul>
           </div>
         </div>
