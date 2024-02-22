@@ -24,7 +24,7 @@ p { font-size: 1.6rem; }
 
   /*------- Wrapper Section Ends -------*/
 
-  /*------- Banner Section Starts -------*/
+  /*------- Slider Section Starts -------*/
 
 .box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; }
 .box-banner > h1 { font-size: 3rem; }
@@ -33,7 +33,7 @@ p { font-size: 1.6rem; }
 .btn-read-more-view-products > li > a { display: block; }
 .btn-read-more-view-products > li:last-child > a { margin-top: 15px; }
 
-  /*------- Banner Section Ends -------*/
+  /*------- Slider Section Ends -------*/
 
   /*------- About Us Section Starts -------*/
 
@@ -128,12 +128,12 @@ p { font-size: 1.6rem; }
 
   /*------- Wrapper Section Ends -------*/
 
-  /*------- Banner Section Starts -------*/
+  /*------- Slider Section Starts -------*/
 
 .box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; }
 .box-banner > h1 { font-size: 3.6rem; }
 
-  /*------- Banner Section Ends -------*/
+  /*------- Slider Section Ends -------*/
 
   /*------- About Us Section Starts -------*/
 
@@ -224,11 +224,11 @@ p { font-size: 1.6rem; }
 
   /*------- Wrapper Section Ends -------*/
 
-  /*------- Banner Section Starts -------*/
+  /*------- Slider Section Starts -------*/
 
 .box-banner > h1 { font-size: 3.6rem; }
 
-  /*------- Banner Section Ends -------*/
+  /*------- Slider Section Ends -------*/
 
   /*------- About Us Section Starts -------*/
 
@@ -316,11 +316,11 @@ p { font-size: 1.6rem; }
 
   /*------- Wrapper Section Ends -------*/
 
-  /*------- Banner Section Starts -------*/
+  /*------- Slider Section Starts -------*/
 
 .box-banner > h1 { font-size: 3.6rem; }
 
-  /*------- Banner Section Ends -------*/
+  /*------- Slider Section Ends -------*/
 
   /*------- About Us Section Starts -------*/
 
