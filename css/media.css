@@ -53,7 +53,7 @@ p { font-size: 1.6rem; }
 .menu-listing-mobile > li { display: block; margin-bottom: 15px; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .menu-listing-mobile > li:nth-child(4) { margin-bottom: 30px; }
-.menu-listing-mobile > li > a { color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; }
+.menu-listing-mobile > li > a { color: #1E1E1E; font: 2rem/1.2 "NunitoSans-SemiBold"; }
 .menu-listing-mobile > li.active > a,
 .menu-listing-mobile > li > a:hover { color: #0382B7; }
 .menu-listing-mobile > li.donate-now-li > a { background-color: #0382B7; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; padding: 16px 25px; text-align: center; text-transform: uppercase; }
@@ -270,7 +270,7 @@ p { font-size: 1.6rem; }
 .menu-listing-mobile > li { display: block; margin-bottom: 15px; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .menu-listing-mobile > li:nth-child(4) { margin-bottom: 30px; }
-.menu-listing-mobile > li > a { color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; }
+.menu-listing-mobile > li > a { color: #1E1E1E; font: 2rem/1.2 "NunitoSans-SemiBold"; }
 .menu-listing-mobile > li.active > a,
 .menu-listing-mobile > li > a:hover { color: #0382B7; }
 .menu-listing-mobile > li.donate-now-li > a { background-color: #0382B7; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; padding: 16px 25px; text-align: center; text-transform: uppercase; }
@@ -470,7 +470,7 @@ body.active { overflow: hidden; }
 .menu-listing-mobile > li { display: block; margin-bottom: 15px; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .menu-listing-mobile > li:nth-child(4) { margin-bottom: 30px; }
-.menu-listing-mobile > li > a { color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; }
+.menu-listing-mobile > li > a { color: #1E1E1E; font: 2rem/1.2 "NunitoSans-SemiBold"; }
 .menu-listing-mobile > li.active > a,
 .menu-listing-mobile > li > a:hover { color: #0382B7; }
 .menu-listing-mobile > li.donate-now-li > a { background-color: #0382B7; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; padding: 16px 25px; text-align: center; text-transform: uppercase; }
@@ -663,7 +663,7 @@ body.active { overflow: hidden; }
 .menu-listing-mobile > li { display: block; margin-bottom: 15px; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .menu-listing-mobile > li:nth-child(4) { margin-bottom: 30px; }
-.menu-listing-mobile > li > a { color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; }
+.menu-listing-mobile > li > a { color: #1E1E1E; font: 2rem/1.2 "NunitoSans-SemiBold"; }
 .menu-listing-mobile > li.active > a,
 .menu-listing-mobile > li > a:hover { color: #0382B7; }
 .menu-listing-mobile > li.donate-now-li > a { background-color: #0382B7; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; padding: 16px 25px; text-align: center; text-transform: uppercase; }
