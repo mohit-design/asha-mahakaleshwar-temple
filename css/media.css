@@ -2,6 +2,7 @@
 
 /*-------- Common CSS Starts -------*/
 
+body.active { overflow: hidden; }
 .container-fluid { padding: 20px 15px; }
 .section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
 .section-heading > div > img { display: block; }
@@ -21,6 +22,43 @@ p { font-size: 1.6rem; }
 
 /*------- Home Page Starts -------*/
 
+  /*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+.bg-logo-burger-menu-mobile { background-color: #FFFFFF; display: block; left: 0; padding: 10px 15px; position: fixed; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 3; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > img { height: 46px; }
+
+	  /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 25px; position: relative; width: 25px; z-index: 2; }
+.burger-menu span { background-color: #1E1E1E; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s ease 0.5s; -moz-transition: 0.5s ease 0.5s; -ms-transition: 0.5s ease 0.5s; -o-transition: 0.5s ease 0.5s; transition: 0.5s ease 0.5s; width: 25px; z-index: 2; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #000000; content: ""; display: block; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 25px; z-index: 2; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; -webkit-transition: 0s ease; -moz-transition: 0s ease; -ms-transition: 0s ease; -o-transition: 0s ease; transition: 0s ease; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background-color: #FFFFFF; display: block; height: 100%; left: 0; position: fixed; top: 0; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 4; }
+.fixed-navbar-menu-mobile.active { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.fixed-navbar-menu-mobile-close { background-color: #0382B7; position: fixed; right: 0; top: 0; z-index: 10; }
+.fixed-navbar-menu-mobile-close > i { color: #FFFFFF; display: block; font-size: 2.4rem; height: 44px; line-height: 44px; text-align: center; width: 44px; }
+.menu-listing-mobile { left: 50%; position: fixed; text-align: center; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; z-index: 4; }
+.menu-listing-mobile > li { display: block; margin-bottom: 15px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li:nth-child(4) { margin-bottom: 30px; }
+.menu-listing-mobile > li > a { color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #0382B7; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
   /*------- Desktop Header Section Starts -------*/
 
 .bg-header-desktop { display: none; }
@@ -29,7 +67,7 @@ p { font-size: 1.6rem; }
 
   /*------- Wrapper Section Starts -------*/
 
-.main-wrapper { margin-top: 0; }
+.main-wrapper { margin-top: 70px; }
 
   /*------- Wrapper Section Ends -------*/
 
@@ -175,6 +213,7 @@ p { font-size: 1.6rem; }
 
 /*-------- Common CSS Starts -------*/
 
+body.active { overflow: hidden; }
 .container-fluid { padding: 30px 15px; }
 .section-heading > div { font-size: 1.6rem; }
 .section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
@@ -191,6 +230,43 @@ p { font-size: 1.6rem; }
 
 /*------- Home Page Starts -------*/
 
+  /*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+.bg-logo-burger-menu-mobile { background-color: #FFFFFF; display: block; left: 0; padding: 10px 15px; position: fixed; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 3; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > img { height: 46px; }
+
+	  /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 25px; position: relative; width: 25px; z-index: 2; }
+.burger-menu span { background-color: #1E1E1E; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s ease 0.5s; -moz-transition: 0.5s ease 0.5s; -ms-transition: 0.5s ease 0.5s; -o-transition: 0.5s ease 0.5s; transition: 0.5s ease 0.5s; width: 25px; z-index: 2; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #000000; content: ""; display: block; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 25px; z-index: 2; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; -webkit-transition: 0s ease; -moz-transition: 0s ease; -ms-transition: 0s ease; -o-transition: 0s ease; transition: 0s ease; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background-color: #FFFFFF; display: block; height: 100%; left: 0; position: fixed; top: 0; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 4; }
+.fixed-navbar-menu-mobile.active { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.fixed-navbar-menu-mobile-close { background-color: #0382B7; position: fixed; right: 0; top: 0; z-index: 10; }
+.fixed-navbar-menu-mobile-close > i { color: #FFFFFF; display: block; font-size: 2.4rem; height: 44px; line-height: 44px; text-align: center; width: 44px; }
+.menu-listing-mobile { left: 50%; position: fixed; text-align: center; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; z-index: 4; }
+.menu-listing-mobile > li { display: block; margin-bottom: 15px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li:nth-child(4) { margin-bottom: 30px; }
+.menu-listing-mobile > li > a { color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #0382B7; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
   /*------- Desktop Header Section Starts -------*/
 
 .bg-header-desktop { display: none; }
@@ -199,7 +275,7 @@ p { font-size: 1.6rem; }
 
   /*------- Wrapper Section Starts -------*/
 
-.main-wrapper { margin-top: 0; }
+.main-wrapper { margin-top: 70px; }
 
   /*------- Wrapper Section Ends -------*/
 
@@ -341,6 +417,7 @@ p { font-size: 1.6rem; }
 
 /*-------- Common CSS Starts -------*/
 
+body.active { overflow: hidden; }
 .container-fluid { padding: 30px 15px; }
 .section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
 .section-heading > div > img { display: block; }
@@ -351,6 +428,43 @@ p { font-size: 1.6rem; }
 
 /*------- Home Page Starts -------*/
 
+  /*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+.bg-logo-burger-menu-mobile { background-color: #FFFFFF; display: block; left: 0; padding: 10px 15px; position: fixed; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 3; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > img { height: 46px; }
+
+	  /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 25px; position: relative; width: 25px; z-index: 2; }
+.burger-menu span { background-color: #1E1E1E; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s ease 0.5s; -moz-transition: 0.5s ease 0.5s; -ms-transition: 0.5s ease 0.5s; -o-transition: 0.5s ease 0.5s; transition: 0.5s ease 0.5s; width: 25px; z-index: 2; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #000000; content: ""; display: block; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 25px; z-index: 2; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; -webkit-transition: 0s ease; -moz-transition: 0s ease; -ms-transition: 0s ease; -o-transition: 0s ease; transition: 0s ease; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background-color: #FFFFFF; display: block; height: 100%; left: 0; position: fixed; top: 0; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 4; }
+.fixed-navbar-menu-mobile.active { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.fixed-navbar-menu-mobile-close { background-color: #0382B7; position: fixed; right: 0; top: 0; z-index: 10; }
+.fixed-navbar-menu-mobile-close > i { color: #FFFFFF; display: block; font-size: 2.4rem; height: 44px; line-height: 44px; text-align: center; width: 44px; }
+.menu-listing-mobile { left: 50%; position: fixed; text-align: center; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; z-index: 4; }
+.menu-listing-mobile > li { display: block; margin-bottom: 15px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li:nth-child(4) { margin-bottom: 30px; }
+.menu-listing-mobile > li > a { color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #0382B7; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
   /*------- Desktop Header Section Starts -------*/
 
 .bg-header-desktop { display: none; }
@@ -359,7 +473,7 @@ p { font-size: 1.6rem; }
 
   /*------- Wrapper Section Starts -------*/
 
-.main-wrapper { margin-top: 0; }
+.main-wrapper { margin-top: 70px; }
 
   /*------- Wrapper Section Ends -------*/
 
@@ -494,6 +608,7 @@ p { font-size: 1.6rem; }
 
 /*-------- Common CSS Starts -------*/
 
+body.active { overflow: hidden; }
 .container-fluid { padding: 30px 15px; }
 .section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
 .section-heading > div > img { display: block; }
@@ -504,6 +619,43 @@ p { font-size: 1.6rem; }
 
 /*------- Home Page Starts -------*/
 
+  /*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+.bg-logo-burger-menu-mobile { background-color: #FFFFFF; display: block; left: 0; padding: 10px 15px; position: fixed; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 3; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > img { height: 46px; }
+
+	  /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 25px; position: relative; width: 25px; z-index: 2; }
+.burger-menu span { background-color: #1E1E1E; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s ease 0.5s; -moz-transition: 0.5s ease 0.5s; -ms-transition: 0.5s ease 0.5s; -o-transition: 0.5s ease 0.5s; transition: 0.5s ease 0.5s; width: 25px; z-index: 2; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #000000; content: ""; display: block; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 25px; z-index: 2; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; -webkit-transition: 0s ease; -moz-transition: 0s ease; -ms-transition: 0s ease; -o-transition: 0s ease; transition: 0s ease; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background-color: #FFFFFF; display: block; height: 100%; left: 0; position: fixed; top: 0; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 4; }
+.fixed-navbar-menu-mobile.active { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.fixed-navbar-menu-mobile-close { background-color: #0382B7; position: fixed; right: 0; top: 0; z-index: 10; }
+.fixed-navbar-menu-mobile-close > i { color: #FFFFFF; display: block; font-size: 2.4rem; height: 44px; line-height: 44px; text-align: center; width: 44px; }
+.menu-listing-mobile { left: 50%; position: fixed; text-align: center; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; z-index: 4; }
+.menu-listing-mobile > li { display: block; margin-bottom: 15px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li:nth-child(4) { margin-bottom: 30px; }
+.menu-listing-mobile > li > a { color: #1E1E1E; font: 1.8rem/1.2 "NunitoSans-SemiBold"; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #0382B7; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
   /*------- Desktop Header Section Starts -------*/
 
 .bg-header-desktop { display: none; }
@@ -512,7 +664,7 @@ p { font-size: 1.6rem; }
 
   /*------- Wrapper Section Starts -------*/
 
-.main-wrapper { margin-top: 0; }
+.main-wrapper { margin-top: 70px; }
 
   /*------- Wrapper Section Ends -------*/
 
