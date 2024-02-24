@@ -259,6 +259,10 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 
 	/*------- Inner Banner Section Ends -------*/
 
+.vision-mission-section-heading > h2 { align-items: center; display: flex; }
+.vision-mission-section-heading > h2 > img { background-color: #0382B7; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 60px; margin-right: 10px; padding: 10px; width: 60px; }
+.vision-mission-section-heading > h2 > span { margin-left: 10px; }
+
 /*------- About Us Page Ends -------*/
 
 /*------- Products Page Starts -------*/
@@ -327,23 +331,26 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .btn-update-cart:hover,
 .btn-proceed-to-checkout:hover,
 .btn-place-order:hover,
-.btn-login-signup:hover { background-color: #FFB800; color: #1E1E1E; }
+.btn-login-signup:hover,
+.btn-submit:hover { background-color: #FFB800; color: #1E1E1E; }
 .btn-update-cart:focus,
 .btn-proceed-to-checkout:focus,
 .btn-place-order:focus,
-.btn-login-signup:focus { outline: 0; }
+.btn-login-signup:focus,
+.btn-submit:focus { outline: 0; }
 .box-view-cart-totals-vcp,
 .box-view-cart-totals-cop { margin-bottom: 0; }
 .box-table-design > h4 { background-color: #002332; color: #FFFFFF; font: 2rem/normal "NunitoSans-SemiBold"; padding: 10px 15px; text-align: center; text-transform: uppercase; }
 .btn-proceed-to-checkout,
 .btn-place-order,
-.btn-login-signup { background-color: #0382B7; border: 0; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; letter-spacing: 0.5px; padding: 16px 32px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
+.btn-login-signup,
+.btn-submit { background-color: #0382B7; border: 0; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; letter-spacing: 0.5px; padding: 16px 32px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
 
   /*------- View Cart Section Ends -------*/
 
 /*------- View Cart Page Ends -------*/
 
-/*------- Contact Us Page Starts -------*/
+/*------- Checkout Page Starts -------*/
 
   /*------- Checkout Section Starts -------*/
 
@@ -360,7 +367,8 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .form-control-contact::-ms-input-placeholder {
   color: #777777;
 }
-.form-control-contact:focus { border-color: #0382B7; box-shadow: none; }
+.form-control-contact:focus { background-color: rgb(3 130 183 / 10%); border-color: #0382B7; box-shadow: none; }
+.form-control-contact:focus::placeholder { color: #1E1E1E; }
 textarea.form-control-contact { min-height: 140px; resize: none; }
 .box-checkout-products { border-bottom: 2px solid #002332; padding: 15px; }
 .box-checkout-products + .box-checkout-products { border-top: 0; }
@@ -373,6 +381,33 @@ textarea.form-control-contact { min-height: 140px; resize: none; }
   /*------- Checkout Section Ends -------*/
 
 /*------- Checkout Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+  /*------- Contact Info and Map Section Starts -------*/
+
+.bg-contact-info-map-cp { padding-bottom: 0; }
+.box-contact-info-cp { -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; margin-bottom: 30px; padding: 30px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-contact-info-cp-1 { background-color: rgb(16 110 171 / 20%); }
+.box-contact-info-cp-2 { background-color: rgb(51 176 74 / 20%); }
+.box-contact-info-cp-3 { background-color: rgb(93 18 189 / 20%); margin-bottom: 0; }
+.box-contact-icon-cp { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 80px; margin: 0 auto 20px; text-align: center; width: 80px; }
+.box-contact-icon-cp > i { color: #ffffff; font-size: 3.6rem; line-height: 80px; }
+.box-contact-icon-cp-1 { background-color: rgb(16 110 171 / 100%); }
+.box-contact-icon-cp-2 { background-color: rgb(51 176 74 / 100%); }
+.box-contact-icon-cp-3 { background-color: rgb(93 18 189 / 100%); }
+.box-contact-info-cp > address { color: #1E1E1E; font: 1.8rem/1.7 "NunitoSans-Regular"; text-align: center; }
+.box-contact-info-cp > address > span { display: block; }
+.box-contact-info-cp > p { font-family: "NunitoSans-Regular"; text-align: center; }
+.box-contact-info-cp > p > a { color: #1E1E1E; }
+.box-contact-info-cp-2 > p > a:hover { color: rgb(51 176 74 / 100%); }
+.box-contact-info-cp-3 > p > a:hover { color: rgb(93 18 189 / 100%); }
+.map-cp { border: 1px solid #cccccc; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; padding: 10px; height: 690px; width: 100%; }
+.btn-submit { width: auto; }
+
+  /*------- Contact Info and Map Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
 
 /*------- LogIn and SignUp Page Starts -------*/
 
