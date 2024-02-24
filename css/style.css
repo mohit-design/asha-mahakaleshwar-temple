@@ -53,6 +53,21 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 
 /*-------- Common CSS Ends -------*/
 
+/*------- LogIn and SignUp Page Starts -------*/
+
+.box-login-signup { background-color: #F7F7F7; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; padding: 30px; }
+.box-login-signup-heading > h3 { color: #002332; font: 2.4rem/normal "NunitoSans-Bold"; margin-bottom: 15px; text-align: center; }
+.box-login-signup-heading > p { margin-bottom: 30px; text-align: center; }
+.forget-password > a { color: #0382B7; font-family: "NunitoSans-SemiBold"; text-decoration: underline; }
+.forget-password > a:hover,
+.login-signup-redirection > a:hover { color: #002332; }
+.login-signup-redirection { color: #002332; font-family: "NunitoSans-SemiBold"; text-align: center; }
+.login-signup-redirection > a { color: #0382B7; text-decoration: underline; }
+.btn-cancel { background-color: #DC143C; border: 2px solid #DC143C; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; letter-spacing: 0.5px; margin-top: 15px; padding: 14px 32px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
+.btn-cancel:hover { background-color: transparent; color: #DC143C; }
+
+/*------- LogIn and SignUp Page Ends -------*/
+
 /*------- Home Page Starts -------*/
 
   /*------- Desktop Header Section Starts -------*/
@@ -259,9 +274,13 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 
 	/*------- Inner Banner Section Ends -------*/
 
+  /*------- Vision and Mission Section Starts -------*/
+
 .vision-mission-section-heading > h2 { align-items: center; display: flex; }
 .vision-mission-section-heading > h2 > img { background-color: #0382B7; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 60px; margin-right: 10px; padding: 10px; width: 60px; }
 .vision-mission-section-heading > h2 > span { margin-left: 10px; }
+
+	/*------- Vision and Mission Section Ends -------*/
 
 /*------- About Us Page Ends -------*/
 
@@ -323,10 +342,12 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .table-design > tbody > tr > td.total-label,
 .table-design > tbody > tr > td.total-value { background-color: #FFB800; }
 .table-design > tbody > tr:last-child > td { border-bottom: 0; padding: 15px; }
+.view-cart-image-product-name-vcp { align-items: center; display: -webkit-box; display: -webkit-flex; display: flex; }
 .view-cart-image-vcp > img { margin-right: 15px; width: 70px; }
-.view-cart-image-info-vcp > p { color: #002332; font-family: "NunitoSans-SemiBold"; }
+.view-cart-product-name-vcp > p { color: #002332; font-family: "NunitoSans-SemiBold"; }
 .delete-product { color: #002332; cursor: pointer; font-size: 2.4rem; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
 .delete-product:hover { color: #DC143C; }
+.td-update-cart { text-align: right; }
 .btn-update-cart { background-color: #0382B7; border: 0; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; font: 1.6rem/normal "NunitoSans-Bold"; height: 54px; letter-spacing: 1px; padding: 10px 30px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
 .btn-update-cart:hover,
 .btn-proceed-to-checkout:hover,
@@ -408,18 +429,3 @@ textarea.form-control-contact { min-height: 140px; resize: none; }
   /*------- Contact Info and Map Section Ends -------*/
 
 /*------- Contact Us Page Ends -------*/
-
-/*------- LogIn and SignUp Page Starts -------*/
-
-.box-login-signup { background-color: #F7F7F7; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; padding: 30px; }
-.box-login-signup-heading > h3 { color: #002332; font: 2.4rem/normal "NunitoSans-Bold"; margin-bottom: 15px; text-align: center; }
-.box-login-signup-heading > p { margin-bottom: 30px; text-align: center; }
-.forget-password > a { color: #0382B7; font-family: "NunitoSans-SemiBold"; text-decoration: underline; }
-.forget-password > a:hover,
-.login-signup-redirection > a:hover { color: #002332; }
-.login-signup-redirection { color: #002332; font-family: "NunitoSans-SemiBold"; text-align: center; }
-.login-signup-redirection > a { color: #0382B7; text-decoration: underline; }
-.btn-cancel { background-color: #DC143C; border: 2px solid #DC143C; -webkit-border-radius: 27px; -moz-border-radius: 27px; -ms-border-radius: 27px; -o-border-radius: 27px; border-radius: 27px; color: #FFFFFF; display: block; font: 1.6rem/normal "NunitoSans-Bold"; letter-spacing: 0.5px; margin-top: 15px; padding: 14px 32px; text-align: center; text-transform: uppercase; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
-.btn-cancel:hover { background-color: transparent; color: #DC143C; }
-
-/*------- LogIn and SignUp Page Ends -------*/

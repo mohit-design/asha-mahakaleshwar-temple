@@ -6,9 +6,18 @@
 .section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
 .section-heading > div > img { display: block; }
 .section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+.section-heading-ip > h1 { font-size: 3rem; }
 p { font-size: 1.6rem; }
 
 /*-------- Common CSS Ends -------*/
+
+/*------- LogIn and SignUp Page Starts -------*/
+
+.box-login-signup { padding: 20px; }
+.box-login-signup-heading > p,
+.form-group-contact { margin-bottom: 20px; }
+
+/*------- LogIn and SignUp Page Ends -------*/
 
 /*------- Home Page Starts -------*/
 
@@ -26,20 +35,24 @@ p { font-size: 1.6rem; }
 
   /*------- Slider Section Starts -------*/
 
-.box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; }
+.bg-banner-slider { padding: 0; }
+.box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 85%; }
 .box-banner > h1 { font-size: 3rem; }
 .btn-read-more-view-products { display: block; }
 .btn-read-more-view-products > li { margin-right: 0; }
 .btn-read-more-view-products > li > a { display: block; }
-.btn-read-more-view-products > li:last-child > a { margin-top: 15px; }
+.btn-read-more-view-products > li:last-child { margin-top: 15px; }
+.btn-read-more-view-products > li:last-child > a { padding: 14px 17px; }
+.banner-slick-slider .slick-slide img { height: 100vh; }
+.banner-slick-slider .slick-prev { -webkit-border-radius: 0 7px 7px 0; -moz-border-radius: 0 7px 7px 0; -ms-border-radius: 0 7px 7px 0; -o-border-radius: 0 7px 7px 0; border-radius: 0 7px 7px 0; height: 40px; width: 40px; }
+.banner-slick-slider .slick-next { -webkit-border-radius: 7px 0 0 7px; -moz-border-radius: 7px 0 0 7px; -ms-border-radius: 7px 0 0 7px; -o-border-radius: 7px 0 0 7px; border-radius: 7px 0 0 7px; height: 40px; width: 40px; }
 
   /*------- Slider Section Ends -------*/
 
   /*------- About Us Section Starts -------*/
 
 .bg-about { padding: 75px 15px 20px; }
-.ohm-image-about { bottom: 20px; right: 20px; }
-.ohm-image-about > img { width: 70px; }
+.ohm-image-about { display: none; }
 .about-image-top { left: 0; top: -50px; }
 .about-image-top > img,
 .about-image-bottom > img { height: 100px; width: 100px; }
@@ -88,16 +101,71 @@ p { font-size: 1.6rem; }
 
 /*------- About Us Page Starts -------*/
 
+  /*------- About Us Section Starts -------*/
+
+.about-desc-ap > p:last-child { margin-bottom: 0; }
+
+	/*------- About Us Section Ends -------*/
+
+  /*------- Vision and Mission Section Starts -------*/
+
+.bg-vision-mission-ap { padding: 0 15px; }
+.vision-mission-section-heading > h2 { display: block; }
+.vision-mission-section-heading > h2 > img { height: 50px; margin-right: 5px; width: 50px; }
+.vision-mission-section-heading > h2 > span { margin-left: 0; }
+.vision-mission-info > p { margin-bottom: 20px; }
+
+	/*------- Vision and Mission Section Ends -------*/
 
 /*------- About Us Page Ends -------*/
 
 /*------- Products Page Starts -------*/
 
+  /*------- Products Section Starts -------*/
+
+.pagination-design { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
 
 /*------- Products Page Ends -------*/
 
+/*------- Product Details Page Starts -------*/
+
+  /*------- Product Details Section Starts -------*/
+
+.box-product-detail-image > img { margin-bottom: 20px; }
+.box-product-detail-heading > h3 { font-size: 2rem; }
+.box-product-detail-desc > p { text-align: justify; }
+
+  /*------- Product Details Section Ends -------*/
+
+/*------- Product Details Page Ends -------*/
+
+/*------- View Cart Page Starts -------*/
+
+  /*------- View Cart Section Starts -------*/
+
+.box-table-design-update-cart { margin-bottom: 20px; }
+.view-cart-image-product-name-vcp { display: block; }
+.view-cart-image-vcp > img { margin: 0 0 10px 0; width: 100%; }
+.td-update-cart { text-align: left; }
+
+  /*------- View Cart Section Ends -------*/
+
+/*------- View Cart Page Ends -------*/
+
 /*------- Contact Us Page Starts -------*/
 
+  /*------- Contact Info and Map Section Starts -------*/
+
+.box-contact-info-cp { margin-bottom: 20px; padding: 20px; }
+.box-contact-icon-cp { height: 70px; width: 70px; }
+.box-contact-icon-cp > i { font-size: 3rem; line-height: 70px; }
+.box-contact-info-cp > address { font-size: 1.6rem; }
+.map-cp { height: 400px; }
+.bg-contact-form { padding-top: 0; }
+
+  /*------- Contact Info and Map Section Ends -------*/
 
 /*------- Contact Us Page Ends -------*/
 
@@ -110,9 +178,16 @@ p { font-size: 1.6rem; }
 .container-fluid { padding: 30px 15px; }
 .section-heading > div { font-size: 1.6rem; }
 .section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+.section-heading-ip > h1 { font-size: 3rem; }
 p { font-size: 1.6rem; }
 
 /*-------- Common CSS Ends -------*/
+
+/*------- LogIn and SignUp Page Starts -------*/
+
+.box-login-signup-heading > p { margin-bottom: 20px; }
+
+/*------- LogIn and SignUp Page Ends -------*/
 
 /*------- Home Page Starts -------*/
 
@@ -130,16 +205,24 @@ p { font-size: 1.6rem; }
 
   /*------- Slider Section Starts -------*/
 
-.box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 90%; }
-.box-banner > h1 { font-size: 3.6rem; }
+.bg-banner-slider { padding: 0; }
+.box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 80%; }
+.box-banner > h1 { font-size: 3rem; }
+.btn-read-more-view-products { display: block; }
+.btn-read-more-view-products > li { margin-right: 0; }
+.btn-read-more-view-products > li > a { display: block; }
+.btn-read-more-view-products > li:last-child { margin-top: 15px; }
+.btn-read-more-view-products > li:last-child > a { padding: 14px 17px; }
+.banner-slick-slider .slick-slide img { height: 100vh; }
+.banner-slick-slider .slick-prev { -webkit-border-radius: 0 7px 7px 0; -moz-border-radius: 0 7px 7px 0; -ms-border-radius: 0 7px 7px 0; -o-border-radius: 0 7px 7px 0; border-radius: 0 7px 7px 0; height: 44px; width: 44px; }
+.banner-slick-slider .slick-next { -webkit-border-radius: 7px 0 0 7px; -moz-border-radius: 7px 0 0 7px; -ms-border-radius: 7px 0 0 7px; -o-border-radius: 7px 0 0 7px; border-radius: 7px 0 0 7px; height: 44px; width: 44px; }
 
   /*------- Slider Section Ends -------*/
 
   /*------- About Us Section Starts -------*/
 
 .bg-about { padding: 130px 15px 30px; }
-.ohm-image-about { bottom: 30px; right: 30px; }
-.ohm-image-about > img { width: 70px; }
+.ohm-image-about { display: none; }
 .about-image-top { left: 0; top: -100px; }
 .about-image-center > img { width: 70%; }
 .about-image-bottom { bottom: -80px; right: 0; }
@@ -183,16 +266,72 @@ p { font-size: 1.6rem; }
 
 /*------- About Us Page Starts -------*/
 
+  /*------- About Us Section Starts -------*/
+
+.about-desc-ap > p:last-child { margin-bottom: 0; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Vision and Mission Section Starts -------*/
+
+.bg-vision-mission-ap { padding: 0 15px; }
+.vision-mission-section-heading > h2 { display: block; }
+.vision-mission-section-heading > h2 > img { height: 50px; margin-right: 5px; width: 50px; }
+.vision-mission-section-heading > h2 > span { margin-left: 0; }
+.vision-mission-info > p { margin-bottom: 30px; }
+
+	/*------- Vision and Mission Section Ends -------*/
 
 /*------- About Us Page Ends -------*/
 
 /*------- Products Page Starts -------*/
 
+  /*------- Products Section Starts -------*/
+
+.pagination-design { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
 
 /*------- Products Page Ends -------*/
 
+/*------- Product Details Page Starts -------*/
+
+  /*------- Product Details Section Starts -------*/
+
+.box-product-detail-image > img { margin-bottom: 20px; }
+.box-product-detail-heading > h3 { font-size: 2rem; }
+.box-product-detail-desc > p { text-align: justify; }
+
+  /*------- Product Details Section Ends -------*/
+
+/*------- Product Details Page Ends -------*/
+
+/*------- View Cart Page Starts -------*/
+
+  /*------- View Cart Section Starts -------*/
+
+.box-table-design-update-cart { margin-bottom: 30px; }
+.view-cart-image-product-name-vcp { display: block; }
+.view-cart-image-vcp > img { margin: 0 0 10px 0; width: 100%; }
+.td-update-cart { text-align: left; }
+
+  /*------- View Cart Section Ends -------*/
+
+/*------- View Cart Page Ends -------*/
+
 /*------- Contact Us Page Starts -------*/
 
+  /*------- Contact Info and Map Section Starts -------*/
+
+.box-contact-info-cp { padding: 20px; }
+.box-contact-info-cp-3 { margin-bottom: 30px; }
+.box-contact-icon-cp { height: 70px; width: 70px; }
+.box-contact-icon-cp > i { font-size: 3rem; line-height: 70px; }
+.box-contact-info-cp > address { font-size: 1.6rem; }
+.map-cp { height: 400px; }
+.bg-contact-form { padding-top: 0; }
+
+  /*------- Contact Info and Map Section Ends -------*/
 
 /*------- Contact Us Page Ends -------*/
 
@@ -206,7 +345,7 @@ p { font-size: 1.6rem; }
 .section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
 .section-heading > div > img { display: block; }
 .section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
-p { font-size: 1.6rem; }
+.section-heading-ip > h1 { font-size: 3rem; }
 
 /*-------- Common CSS Ends -------*/
 
@@ -226,15 +365,19 @@ p { font-size: 1.6rem; }
 
   /*------- Slider Section Starts -------*/
 
-.box-banner > h1 { font-size: 3.6rem; }
+.bg-banner-slider { padding: 0; }
+.box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 80%; }
+.box-banner > h1 { font-size: 3rem; }
+.banner-slick-slider .slick-slide img { height: 100vh; }
+.banner-slick-slider .slick-prev { -webkit-border-radius: 0 7px 7px 0; -moz-border-radius: 0 7px 7px 0; -ms-border-radius: 0 7px 7px 0; -o-border-radius: 0 7px 7px 0; border-radius: 0 7px 7px 0; height: 44px; width: 44px; }
+.banner-slick-slider .slick-next { -webkit-border-radius: 7px 0 0 7px; -moz-border-radius: 7px 0 0 7px; -ms-border-radius: 7px 0 0 7px; -o-border-radius: 7px 0 0 7px; border-radius: 7px 0 0 7px; height: 44px; width: 44px; }
 
   /*------- Slider Section Ends -------*/
 
   /*------- About Us Section Starts -------*/
 
 .bg-about { padding: 130px 15px 30px; }
-.ohm-image-about { bottom: 30px; right: 30px; }
-.ohm-image-about > img { width: 70px; }
+.ohm-image-about { display: none; }
 .about-image-top { left: 0; top: -100px; }
 .about-image-center > img { width: 70%; }
 .about-image-bottom { bottom: -80px; right: 0; }
@@ -276,16 +419,72 @@ p { font-size: 1.6rem; }
 
 /*------- About Us Page Starts -------*/
 
+  /*------- Inner Banner Section Starts -------*/
+
+.bg-inner-banner-ip { padding: 60px 15px; }
+
+	/*------- Inner Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-desc-ap > p:last-child { margin-bottom: 0; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Vision and Mission Section Starts -------*/
+
+.bg-vision-mission-ap { padding: 0 15px; }
+.vision-mission-section-heading > h2 { display: block; }
+.vision-mission-section-heading > h2 > img { height: 55px; margin-right: 5px; width: 55px; }
+.vision-mission-section-heading > h2 > span { margin-left: 0; }
+.vision-mission-info > p { margin-bottom: 30px; }
+
+	/*------- Vision and Mission Section Ends -------*/
 
 /*------- About Us Page Ends -------*/
 
 /*------- Products Page Starts -------*/
 
+  /*------- Products Section Starts -------*/
+
+.pagination-design { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
 
 /*------- Products Page Ends -------*/
 
+/*------- Product Details Page Starts -------*/
+
+  /*------- Product Details Section Starts -------*/
+
+.box-product-detail-heading > h3 { font-size: 2.2rem; }
+.box-product-detail-desc > p { text-align: justify; }
+
+  /*------- Product Details Section Ends -------*/
+
+/*------- Product Details Page Ends -------*/
+
+/*------- View Cart Page Starts -------*/
+
+  /*------- View Cart Section Starts -------*/
+
+.box-table-design-update-cart { margin-bottom: 30px; }
+
+  /*------- View Cart Section Ends -------*/
+
+/*------- View Cart Page Ends -------*/
+
 /*------- Contact Us Page Starts -------*/
 
+  /*------- Contact Info and Map Section Starts -------*/
+
+.box-contact-info-cp { padding: 20px; }
+.box-contact-icon-cp { height: 70px; width: 70px; }
+.box-contact-icon-cp > i { font-size: 3rem; line-height: 70px; }
+.map-cp { height: 600px; }
+.bg-contact-form { padding-top: 0; }
+
+  /*------- Contact Info and Map Section Ends -------*/
 
 /*------- Contact Us Page Ends -------*/
 
@@ -295,10 +494,11 @@ p { font-size: 1.6rem; }
 
 /*-------- Common CSS Starts -------*/
 
-.container-fluid { padding: 40px 15px; }
+.container-fluid { padding: 30px 15px; }
 .section-heading > div { font-size: 1.6rem; margin-bottom: 10px; }
-.section-heading > h2 { font-size: 2.4rem; }
-p { font-size: 1.6rem; }
+.section-heading > div > img { display: block; }
+.section-heading > h2 { font-size: 2.4rem; margin-bottom: 20px; }
+.section-heading-ip > h1 { font-size: 3rem; }
 
 /*-------- Common CSS Ends -------*/
 
@@ -318,19 +518,19 @@ p { font-size: 1.6rem; }
 
   /*------- Slider Section Starts -------*/
 
+.bg-banner-slider { padding: 0; }
+.box-banner { left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 80%; }
 .box-banner > h1 { font-size: 3.6rem; }
+.banner-slick-slider .slick-slide img { height: 100vh; }
 
   /*------- Slider Section Ends -------*/
 
   /*------- About Us Section Starts -------*/
 
-.bg-about { padding: 140px 15px 120px; }
-.ohm-image-about { bottom: 50px; right: 50px; }
-.ohm-image-about > img { width: 100px; }
+.bg-about { padding: 130px 15px 30px; }
+.ohm-image-about { display: none; }
 .about-image-top { left: 0; top: -100px; }
-.about-image-top > img,
-.about-image-bottom > img { height: 150px; width: 150px; }
-.about-image-center > img { width: 80%; }
+.about-image-center > img { width: 70%; }
 .about-image-bottom { bottom: -80px; right: 0; }
 .about-desc > p { text-align: justify; }
 
@@ -344,13 +544,13 @@ p { font-size: 1.6rem; }
 
   /*------- Extra Details Section Starts -------*/
 
-.bg-extra-details { padding: 40px 15px 10px; }
+.bg-extra-details { padding: 30px 15px 0; }
 
   /*------- Extra Details Section Ends -------*/
 
   /*------- Footer Section Starts -------*/
 
-.footer-about-desc > p { margin-bottom: 30px; padding-right: 0; text-align: justify; }
+.footer-about-desc > p { margin-bottom: 20px; padding-right: 0; text-align: justify; }
 .footer-heading > h3 { font-size: 2rem; margin-bottom: 15px; }
 .quick-links-listing > li,
 .footer-contact-listing > li { margin-bottom: 10px; }
@@ -359,7 +559,9 @@ p { font-size: 1.6rem; }
 
   /*------- Copyright Section Starts -------*/
 
-.bg-copyright { padding: 20px 15px; }
+.copyright-info > p,
+.design-develop-by > p { text-align: center; }
+.copyright-info > p { margin-bottom: 10px; }
 
   /*------- Copyright Section Ends -------*/
 
@@ -367,16 +569,72 @@ p { font-size: 1.6rem; }
 
 /*------- About Us Page Starts -------*/
 
+  /*------- Inner Banner Section Starts -------*/
+
+.bg-inner-banner-ip { padding: 60px 15px; }
+
+	/*------- Inner Banner Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-desc-ap > p:last-child { margin-bottom: 0; }
+
+  /*------- About Us Section Ends -------*/
+
+  /*------- Vision and Mission Section Starts -------*/
+
+.bg-vision-mission-ap { padding: 20px 15px 0; }
+.vision-mission-section-heading > h2 { display: block; }
+.vision-mission-section-heading > h2 > img { height: 55px; margin-right: 5px; width: 55px; }
+.vision-mission-section-heading > h2 > span { margin-left: 0; }
+.vision-mission-info > p { margin-bottom: 30px; }
+
+	/*------- Vision and Mission Section Ends -------*/
 
 /*------- About Us Page Ends -------*/
 
 /*------- Products Page Starts -------*/
 
+  /*------- Products Section Starts -------*/
+
+.pagination-design { margin-top: 0; }
+
+  /*------- Products Section Ends -------*/
 
 /*------- Products Page Ends -------*/
 
+/*------- Product Details Page Starts -------*/
+
+  /*------- Product Details Section Starts -------*/
+
+.box-product-detail-heading > h3 { font-size: 2.2rem; }
+.box-product-detail-desc > p { text-align: justify; }
+
+  /*------- Product Details Section Ends -------*/
+
+/*------- Product Details Page Ends -------*/
+
+/*------- View Cart Page Starts -------*/
+
+  /*------- View Cart Section Starts -------*/
+
+.box-table-design-update-cart { margin-bottom: 30px; }
+
+  /*------- View Cart Section Ends -------*/
+
+/*------- View Cart Page Ends -------*/
+
 /*------- Contact Us Page Starts -------*/
 
+  /*------- Contact Info and Map Section Starts -------*/
+
+.box-contact-info-cp { padding: 20px; }
+.box-contact-icon-cp { height: 70px; width: 70px; }
+.box-contact-icon-cp > i { font-size: 3rem; line-height: 70px; }
+.map-cp { height: 600px; }
+.bg-contact-form { padding-top: 0; }
+
+  /*------- Contact Info and Map Section Ends -------*/
 
 /*------- Contact Us Page Ends -------*/
 
