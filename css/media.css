@@ -139,6 +139,12 @@ p { font-size: 1.6rem; }
 
 /*------- About Us Page Starts -------*/
 
+  /*------- Inner Banner Section Starts -------*/
+
+.bg-inner-banner-ip { padding: 30px 15px; }
+
+	/*------- Inner Banner Section Ends -------*/
+
   /*------- About Us Section Starts -------*/
 
 .about-desc-ap > p:last-child { margin-bottom: 0; }
