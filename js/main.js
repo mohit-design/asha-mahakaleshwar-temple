@@ -11,6 +11,14 @@ $(function() {
 	    $('.bg-header-desktop').removeClass('active');
 	   }
 	});
+	$(".burger-menu").click(function() {
+		$("body").addClass("active");
+		$(".fixed-navbar-menu-mobile").addClass("active");
+	});
+	$(".fixed-navbar-menu-mobile-close > i").click(function() {
+		$("body").removeClass("active");
+		$(".fixed-navbar-menu-mobile").removeClass("active");
+	});
 	// Profile JS
 	$(".btn-profile-add-to-cart-donate-now > li.profile-li > i").click(function() {
 		$(this).parent().parent().find('ul').slideUp(700);
