@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="description" content="Asha Mahakaleshwar Temple">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Aiden Web Solution">
-  <title>Sign Up :: Asha Mahakaleshwar Temple</title>
-  <!-- Favicon Icon -->
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <!-- Font Awesome Icon -->
-  <link rel="stylesheet" href="css/all.min.css" type="text/css">
-  <!-- Bootstrap-5 Minified CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Aiden Web Solution">
+	<title>Gallery :: Asha Mahakaleshwar Temple</title>
+	<!-- Favicon Icon -->
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/all.min.css" type="text/css">
+	<!-- Bootstrap-5 Minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <!-- AOS Minified CSS -->
-  <link rel="stylesheet" href="css/aos.min.css" type="text/css">
-  <!-- Style CSS -->
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <!-- Media CSS -->
-  <link rel="stylesheet" href="css/media.css" type="text/css">
+	<link rel="stylesheet" href="css/aos.min.css" type="text/css">
+  <!-- FancyBox CSS -->
+  <link rel="stylesheet" href="css/fancybox.min.css" type="text/css" />
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css" type="text/css">
 </head>
 <body>
   <audio autoplay="autoplay" loop="loop" playsinline id="audioMantra">
@@ -108,9 +110,9 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="products.html">Our Products</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li class="active"><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact Us</a></li>
-        <li class="active"><a href="signup.html">Sign Up</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
         <li><a href="login.html">Log In</a></li>
         <li class="donate-now-li"><a href=""><i class="fa-solid fa-hand-holding-heart"></i> Donate Now</a></li>
       </ul>
@@ -132,7 +134,7 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About Us</a></li>
               <li><a href="products.html">Products</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
+              <li class="active"><a href="gallery.html">Gallery</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
@@ -205,57 +207,48 @@
     <!-- Desktop Header Section Ends -->
   </header>
 	<main class="main-wrapper">
-    <!-- Inner Banner Section Starts -->
+		<!-- Inner Banner Section Starts -->
     <div class="container-fluid bg-inner-banner-ip">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12" data-aos="fade-in" data-aos-duration="1000">
             <div class="section-heading-ip">
-              <h1 data-aos="fade-up" data-aos-duration="1000">Sign Up</h1>
+              <h1 data-aos="fade-up" data-aos-duration="1000">Gallery</h1>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Inner Banner Section Ends -->
-		<!-- SignUp Section Starts -->
-		<div class="container-fluid bg-login-signup">
-			<div class="container">
+    <!-- Gallery Section Ends -->
+    <div class="container-fluid bg-gallery-gp">
+      <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 col-xxl-6 offset-xxl34" data-aos="fade-up" data-aos-duration="1000">
-            <div class="box-login-signup">
-              <div class="box-login-signup-heading">
-                <h3>Sign Up</h3>
-                <p>Please Register using account detail bellow.</p>
-              </div>
-              <form action="">
-                <div class="form-group form-group-contact">
-                  <label class="form-label form-label-contact">First Name:</label>
-                  <input type="text" class="form-control form-control-contact" />
-                </div>
-                <div class="form-group form-group-contact">
-                  <label class="form-label form-label-contact">Last Name:</label>
-                  <input type="text" class="form-control form-control-contact" />
-                </div>
-                <div class="form-group form-group-contact">
-                  <label class="form-label form-label-contact">Email Address:</label>
-                  <input type="email" class="form-control form-control-contact" />
-                </div>
-                <div class="form-group form-group-contact">
-                  <label class="form-label form-label-contact">Password:</label>
-                  <input type="password" class="form-control form-control-contact" />
-                </div>
-                <div class="form-group form-group-contact">
-                  <input type="button" class="btn-login-signup" value="Sign Up" />
-                </div>
-                <p class="login-signup-redirection">Already have an account? <a href="login.html">Login</a></p>
-              </form>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up" data-aos-duration="1000">
+            <div class="box-gallery-gp">
+              <a data-fancybox="images" href="images/gallery-1.jpg">
+                <img src="images/gallery-1.jpg" class="img-fluid" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up" data-aos-duration="1000">
+            <div class="box-gallery-gp">
+              <a data-fancybox="images" href="images/gallery-2.jpg">
+                <img src="images/gallery-2.jpg" class="img-fluid" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4" data-aos="fade-up" data-aos-duration="1000">
+            <div class="box-gallery-gp">
+              <a data-fancybox="images" href="images/gallery-3.jpg">
+                <img src="images/gallery-3.jpg" class="img-fluid" alt="" />
+              </a>
             </div>
           </div>
         </div>
-			</div>
-		</div>
-		<!-- SignUp Section Ends -->
+      </div>
+    </div>
+    <!-- Gallery Section Ends -->
 	</main>
   <footer>
     <!-- Footer Section Starts -->
@@ -338,7 +331,9 @@
 	<script src="js/jquery-3.6.4.min.js"></script>
   <!-- AOS Minified JS -->
 	<script src="js/aos.min.js"></script>
+  <!-- FancyBox Minified Js -->
+  <script src="js/fancybox.min.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 </body>
-</html>  
+</html>
