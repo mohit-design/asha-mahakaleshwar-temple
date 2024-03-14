@@ -201,6 +201,17 @@ p { font-size: 1.6rem; }
 
 /*------- View Cart Page Ends -------*/
 
+/*------- Gallery Page Starts -------*/
+
+  /*------- Gallery Section Starts -------*/
+
+.bg-gallery-gp { padding: 20px 15px 0; }
+.box-gallery-gp { margin-bottom: 20px; }
+
+  /*------- Gallery Section Ends -------*/
+
+/*------- Gallery Page Ends -------*/
+
 /*------- Contact Us Page Starts -------*/
 
   /*------- Contact Info and Map Section Starts -------*/
@@ -406,6 +417,16 @@ p { font-size: 1.6rem; }
 
 /*------- View Cart Page Ends -------*/
 
+/*------- Gallery Page Starts -------*/
+
+  /*------- Gallery Section Starts -------*/
+
+.bg-gallery-gp { padding: 30px 15px 0; }
+
+  /*------- Gallery Section Ends -------*/
+
+/*------- Gallery Page Ends -------*/
+
 /*------- Contact Us Page Starts -------*/
 
   /*------- Contact Info and Map Section Starts -------*/
@@ -601,6 +622,16 @@ body.active { overflow: hidden; }
 
 /*------- View Cart Page Ends -------*/
 
+/*------- Gallery Page Starts -------*/
+
+  /*------- Gallery Section Starts -------*/
+
+.bg-gallery-gp { padding: 40px 15px 10px; }
+
+  /*------- Gallery Section Ends -------*/
+
+/*------- Gallery Page Ends -------*/
+
 /*------- Contact Us Page Starts -------*/
 
   /*------- Contact Info and Map Section Starts -------*/
@@ -790,6 +821,16 @@ body.active { overflow: hidden; }
   /*------- View Cart Section Ends -------*/
 
 /*------- View Cart Page Ends -------*/
+
+/*------- Gallery Page Starts -------*/
+
+  /*------- Gallery Section Starts -------*/
+
+.bg-gallery-gp { padding: 50px 15px 20px; }
+
+  /*------- Gallery Section Ends -------*/
+
+/*------- Gallery Page Ends -------*/
 
 /*------- Contact Us Page Starts -------*/
 

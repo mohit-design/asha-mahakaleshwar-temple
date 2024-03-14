@@ -83,7 +83,7 @@ a::after { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -mo
 .bg-header-desktop.active { box-shadow: 0 5px 12px 1px rgba(35, 31, 32, 0.09); }
 .logo-header-desktop > a { display: inline-block; }
 .logo-header-desktop > a > img { width: 70px; }
-.menu-listing-desktop > li { margin-right: 50px; }
+.menu-listing-desktop > li { margin-right: 45px; }
 .menu-listing-desktop > li:last-child { margin-right: 0; }
 .menu-listing-desktop > li > a { color: #1E1E1E; font: 1.8rem/normal "NunitoSans-SemiBold"; padding-bottom: 5px; position: relative; z-index: 1; }
 .menu-listing-desktop > li > a::after { background-color: #0382B7; bottom: 0; content: ""; display: block; height: 2px; left: 0; position: absolute; width: 0; z-index: -1; }
@@ -409,6 +409,22 @@ textarea.form-control-contact { min-height: 140px; resize: none; }
   /*------- Checkout Section Ends -------*/
 
 /*------- Checkout Page Ends -------*/
+
+/*------- Gallery Page Starts -------*/
+
+  /*------- Gallery Section Starts -------*/
+
+.bg-gallery-gp { padding: 70px 15px 40px; }
+.box-gallery-gp { -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; display: block; margin-bottom: 30px; }
+.box-gallery-gp > a > img,
+.fancybox-image { -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; }
+.box-gallery-gp { overflow: hidden; position: relative; }
+.box-gallery-gp > a > img { -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
+.box-gallery-gp:hover > a > img { -webkit-filter: brightness(0.7); filter: brightness(0.7); -webkit-transform: rotate(7deg) scale(1.2); -moz-transform: rotate(7deg) scale(1.2); -ms-transform: rotate(7deg) scale(1.2); -o-transform: rotate(7deg) scale(1.2); transform: rotate(7deg) scale(1.2); }
+
+  /*------- Gallery Section Ends -------*/
+
+/*------- Gallery Page Ends -------*/
 
 /*------- Contact Us Page Starts -------*/
 
