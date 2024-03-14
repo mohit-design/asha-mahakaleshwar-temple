@@ -1,3 +1,6 @@
+$(window).on("load",function() {
+	$("#audioMantra").get(0).play();
+});
 $(function() {
   // AOS Animation JS
   AOS.init({
